@@ -7,6 +7,10 @@ section {
   padding: 32px 0;
 }
 
+footer {
+  color: white;
+}
+
 /* Regole Basi */
 .ms_section-primary {
   background-color: #19bc9c;
@@ -48,6 +52,27 @@ section {
 .ms_wrapper {
   width: 60%;
   margin: 0 auto;
+}
+
+.ms_button {
+  width: 100%;
+}
+
+/* FOOTER */
+/* Contacts */
+.ms_footer-contacts {
+  background-color: #3a546d;
+  padding: 30px 0;
+}
+
+.ms_footer-contacts .row > div {
+  padding-bottom: 20px;
+}
+
+/* Copyright */
+.ms_footer-copyright {
+  background-color: #2d3e50;
+  padding: 40px 0;
 }
 
 /* Media Query */
