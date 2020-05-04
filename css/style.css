@@ -1,0 +1,51 @@
+/* Regole Generali */
+body {
+  padding-top: 70px;
+}
+
+section {
+  padding: 32px 0;
+}
+
+/* Regole Basi */
+.ms_section-primary {
+  background-color: #19bc9c;
+  color: white;
+}
+
+.ms_section-secondary {
+  color: #2d3e50;
+}
+
+.ms_section-secondary .ms_section-title {
+  color: #333;
+}
+
+/* Componenti */
+.ms_navbar {
+  background-color: #2d3e50;
+  height: 70px;
+}
+
+.ms_jumbotron {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* Portfolio */
+.ms_portfolio {
+  text-align: center;
+}
+
+.ms_portfolio-item {
+  height: 300px;
+  border-radius: 10px;
+  background-color: #ba4b62;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .ms_jumbotron {
+    padding: 48px 0;
+  }
+}
