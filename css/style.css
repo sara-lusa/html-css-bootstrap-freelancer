@@ -58,6 +58,10 @@ footer {
   width: 100%;
 }
 
+.ms_form > input {
+  display: block;
+}
+
 /* FOOTER */
 /* Contacts */
 .ms_footer-contacts {
