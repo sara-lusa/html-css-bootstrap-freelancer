@@ -53,7 +53,7 @@ footer {
 /* Componenti */
 .ms_navbar {
   background-color: #2d3e50;
-  line-height: 70px;
+  line-height: 80px;
   color: white;
   text-transform: uppercase;
   font-weight: 500;
@@ -223,14 +223,59 @@ footer {
 
 /* Media Query */
 @media screen and (min-width: 768px) {
+  
+  .ms_intro h2 {
+    font-size: 3em;
+  }
+
   .ms_jumbotron {
     padding: 48px 0;
+  }
+
+  .ms_jumbotron h1 {
+    font-size: 4em;
+  }
+
+  .ms_section-primary .ms_divider::before,
+  .ms_section-primary .ms_divider::after,
+  .ms_section-secondary .ms_divider::before,
+  .ms_section-secondary .ms_divider::after {
+    width: 90px;
+  }
+
+  .ms_section-primary .ms_divider::before,
+  .ms_section-secondary .ms_divider::before {
+    margin-right: 10px;
+  }
+
+  .ms_section-primary .ms_divider::after,
+  .ms_section-secondary .ms_divider::after {
+    margin-left: 10px;
   }
 }
 
 @media screen and (min-width: 991px) {
+
   .ms_margin_bottom_30 {
     margin-bottom: 30px;
   }
+
+  .ms_section-primary .ms_divider::before,
+  .ms_section-primary .ms_divider::after,
+  .ms_section-secondary .ms_divider::before,
+  .ms_section-secondary .ms_divider::after {
+    width: 150px;
+  }
+
+  .ms_section-primary .ms_divider::before,
+  .ms_section-secondary .ms_divider::before {
+    margin-right: 30px;
+  }
+
+  .ms_section-primary .ms_divider::after,
+  .ms_section-secondary .ms_divider::after {
+    margin-left: 30px;
+  }
+
 }
 /* Fine Media Query */
