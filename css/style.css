@@ -29,6 +29,7 @@ footer {
   text-transform: uppercase;
   margin-bottom: 20px;
 }
+
 /* Componenti */
 .ms_navbar {
   background-color: #2d3e50;
@@ -61,6 +62,54 @@ footer {
 
 .ms_jumbotron img {
   height: 300px;
+}
+
+.ms_section-primary .ms_divider::before {
+  content: '';
+  height: 4px;
+  width: 70px;
+  background-color: white;
+  vertical-align: text-top;
+  margin-right: 2px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.ms_section-primary .ms_divider::after {
+  content: '';
+  height: 4px;
+  width: 70px;
+  background-color: white;
+  vertical-align: text-top;
+  margin-left: 2px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.ms_section-secondary .ms_divider::before {
+  content: '';
+  height: 4px;
+  width: 70px;
+  background-color: #2d3e50;
+  vertical-align: text-top;
+  margin-right: 2px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.ms_section-secondary .ms_divider::after {
+  content: '';
+  height: 4px;
+  width: 70px;
+  background-color: #2d3e50;
+  vertical-align: text-top;
+  margin-left: 2px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.ms_star {
+  font-size: 2em;
 }
 
 /* Portfolio */
