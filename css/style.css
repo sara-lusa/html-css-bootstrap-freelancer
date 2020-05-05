@@ -28,12 +28,36 @@ footer {
 /* Componenti */
 .ms_navbar {
   background-color: #2d3e50;
-  height: 70px;
+  line-height: 70px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.ms_navbar .ms_logo {
+  font-size: 2em;
+  margin: 0;
+}
+.ms_list-menu {
+  margin: 0;
+}
+
+.ms_list-menu a {
+  color: white;
+  font-size: 1.2em;
+}
+
+.ms_navbar i {
+  font-size: 1.5em;
 }
 
 .ms_jumbotron {
   text-align: center;
   text-transform: uppercase;
+}
+
+.ms_jumbotron img {
+  height: 300px;
 }
 
 /* Portfolio */
@@ -42,16 +66,19 @@ footer {
 }
 
 .ms_portfolio-item {
-  height: 300px;
   border-radius: 10px;
-  background-color: #ba4b62;
   margin-bottom: 30px;
+}
+
+.ms_portfolio img {
+  width: 100%;
 }
 
 /* About */
 .ms_wrapper {
   width: 60%;
   margin: 0 auto;
+  max-width: 991px;
 }
 
 .ms_btn_about {
