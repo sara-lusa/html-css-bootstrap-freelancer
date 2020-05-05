@@ -30,6 +30,9 @@ footer {
   margin-bottom: 20px;
 }
 
+.ms_intro h2 {
+  margin-bottom: 30px;
+}
 /* Componenti */
 .ms_navbar {
   background-color: #2d3e50;
@@ -62,6 +65,10 @@ footer {
 
 .ms_jumbotron img {
   height: 300px;
+}
+
+.ms_jumbotron h1 {
+  margin-bottom: 30px;
 }
 
 .ms_section-primary .ms_divider::before {
@@ -133,6 +140,10 @@ footer {
   max-width: 991px;
 }
 
+.ms_text {
+  font-size: 19px;
+}
+
 .ms_btn_about {
   color: white;
   border: 1px solid white;
@@ -158,6 +169,9 @@ footer {
   margin-top: 7px;
 }
 
+.ms_margin_bottom_30 {
+  margin-bottom: 30px;
+}
 /* FOOTER */
 /* Contacts */
 .ms_footer-contacts {
@@ -202,5 +216,11 @@ footer {
 @media screen and (min-width: 768px) {
   .ms_jumbotron {
     padding: 48px 0;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .ms_margin_bottom_30 {
+    margin-bottom: 30px;
   }
 }
