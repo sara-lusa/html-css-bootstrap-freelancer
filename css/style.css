@@ -11,6 +11,13 @@ footer {
   color: white;
 }
 
+.ms_wrapper {
+  width: 60%;
+  margin: 0 auto;
+  max-width: 991px;
+}
+/* Fine Regole Generali */
+
 /* Regole Basi */
 .ms_section-primary {
   background-color: #19bc9c;
@@ -33,6 +40,16 @@ footer {
 .ms_intro h2 {
   margin-bottom: 30px;
 }
+
+.ms_text {
+  font-size: 19px;
+}
+
+.ms_star {
+  font-size: 2em;
+}
+/* Fine Regole Basi */
+
 /* Componenti */
 .ms_navbar {
   background-color: #2d3e50;
@@ -40,35 +57,6 @@ footer {
   color: white;
   text-transform: uppercase;
   font-weight: 500;
-}
-
-.ms_navbar .ms_logo {
-  font-size: 2em;
-  margin: 0;
-}
-.ms_list-menu {
-  margin: 0;
-}
-
-.ms_list-menu a {
-  color: white;
-  font-size: 1.2em;
-}
-
-.ms_navbar i {
-  font-size: 1.5em;
-}
-
-.ms_jumbotron {
-  text-transform: uppercase;
-}
-
-.ms_jumbotron img {
-  height: 300px;
-}
-
-.ms_jumbotron h1 {
-  margin-bottom: 30px;
 }
 
 .ms_section-primary .ms_divider::before {
@@ -114,11 +102,42 @@ footer {
   display: inline-block;
   border-radius: 5px;
 }
+/* Componenti */
 
-.ms_star {
+/* HEADER */
+/* Navbar */
+.ms_navbar .ms_logo {
   font-size: 2em;
+  margin: 0;
+}
+.ms_list-menu {
+  margin: 0;
 }
 
+.ms_list-menu a {
+  color: white;
+  font-size: 1.2em;
+}
+
+.ms_navbar i {
+  font-size: 1.5em;
+}
+
+/* Jumbotron */
+.ms_jumbotron {
+  text-transform: uppercase;
+}
+
+.ms_jumbotron img {
+  height: 300px;
+}
+
+.ms_jumbotron h1 {
+  margin-bottom: 30px;
+}
+/* FINE HEADER */
+
+/* MAIN */
 /* Portfolio */
 .ms_portfolio {
   text-align: center;
@@ -134,16 +153,6 @@ footer {
 }
 
 /* About */
-.ms_wrapper {
-  width: 60%;
-  margin: 0 auto;
-  max-width: 991px;
-}
-
-.ms_text {
-  font-size: 19px;
-}
-
 .ms_btn_about {
   color: white;
   border: 1px solid white;
@@ -156,9 +165,6 @@ footer {
   border-bottom: 2px solid black;
   border-radius: 0;
   box-shadow: none;
-  /* margin-top: 10px;
-  padding-bottom: 20px; */
-  /* height: auto; */
 }
 
 .ms_label {
@@ -172,6 +178,8 @@ footer {
 .ms_margin_bottom_30 {
   margin-bottom: 30px;
 }
+/* FINE MAIN */
+
 /* FOOTER */
 /* Contacts */
 .ms_footer-contacts {
@@ -211,6 +219,7 @@ footer {
   background-color: #2d3e50;
   padding: 40px 0;
 }
+/* FINE FOOTER */
 
 /* Media Query */
 @media screen and (min-width: 768px) {
@@ -224,3 +233,4 @@ footer {
     margin-bottom: 30px;
   }
 }
+/* Fine Media Query */
