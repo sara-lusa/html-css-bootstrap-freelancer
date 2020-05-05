@@ -58,8 +58,22 @@ footer {
   width: 100%;
 }
 
-.ms_form > input {
-  display: block;
+.ms_form {
+  border: none;
+  border-bottom: 2px solid black;
+  border-radius: 0;
+  box-shadow: none;
+  /* margin-top: 10px;
+  padding-bottom: 20px; */
+  /* height: auto; */
+}
+
+.ms_label {
+  color: #2d3e50;
+  margin-bottom: 0;
+  font-weight: 500;
+  font-size: 17px;
+  margin-top: 7px;
 }
 
 /* FOOTER */
