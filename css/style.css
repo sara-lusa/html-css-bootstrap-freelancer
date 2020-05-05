@@ -25,6 +25,10 @@ footer {
   color: #333;
 }
 
+.ms_intro {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
 /* Componenti */
 .ms_navbar {
   background-color: #2d3e50;
@@ -52,7 +56,6 @@ footer {
 }
 
 .ms_jumbotron {
-  text-align: center;
   text-transform: uppercase;
 }
 
