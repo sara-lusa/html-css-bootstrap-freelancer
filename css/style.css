@@ -126,6 +126,23 @@ footer {
   background-color: #19bc9c;
 }
 
+.ms_footer-contacts i {
+  width: 25px;
+
+}
+
+.ms_footer-contacts .ms_title-social {
+  margin-bottom: 25px;
+}
+
+.ms_social-icon {
+  color: white;
+  padding: 15px;
+  border: 1px solid white;
+  border-radius: 50%;
+  font-size: 1.5em;
+  margin-top: 10px;
+}
 /* Copyright */
 .ms_footer-copyright {
   background-color: #2d3e50;
