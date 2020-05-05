@@ -54,8 +54,11 @@ footer {
   margin: 0 auto;
 }
 
-.ms_button {
-  width: 100%;
+.ms_btn_about {
+  color: white;
+  border: 1px solid white;
+  background-color: #19bc9c;
+  margin: 10px 0;
 }
 
 .ms_form {
@@ -85,6 +88,12 @@ footer {
 
 .ms_footer-contacts .row > div {
   padding-bottom: 20px;
+}
+
+.ms_btn_contacts {
+  color: white;
+  border: 1px solid #19bc9c;
+  background-color: #19bc9c;
 }
 
 /* Copyright */
